@@ -1,0 +1,53 @@
+		Employee Basic details
+Name		
+Phone		
+Address		
+Salary scale		
+Email		
+Position		
+Ppsn		
+Category/experience		
+Entitled Annual leave( total annual leave) 	Optional	
+Remaining annual leave	Optional	
+Sick leaves total	Optional	
+Sick leaves taken	Optional	
+
+
+
+
+    Shift details:
+•	Here manager can see the number of employees need for a shift per day (each morning and evening). Eg: 25 employees for a shift in a day
+•	If manager added 10 employees , he should see remaining number of employees he can add.
+•	How many junior and senior employees can be in a shift 
+•	How many junior and senior employees can add
+
+Shift type	Morning/evening	
+Required number of employees per shift		
+After adding each employee show remaining employees needed		
+Number of junior employees needed per day		
+Number of senior employees needed per day		
+Remaining junior employee needed to add		
+Remaining senior employees needed to add		
+Emp id	Fk	
+		
+		
+
+Update leaves of employees
+Type of leave	Sick/annual
+No of days	Eg: 10 days
+Date of leave(from)	From date
+Date of leave (to)	To date
+	
+	
+	
+	
+
+
+After manager submits the leaves it should update in the calendar column
+For annual leave column should mark as yellow
+For sick leave column should mark in blue
+For bank holidays column should mark in red
+
+
+:
+1.	How to display bank holidays in the calendar columns.
